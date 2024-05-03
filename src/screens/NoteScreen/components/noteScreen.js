@@ -38,7 +38,7 @@ const NoteScreen = () => {
       <TouchableOpacity
         onPress={() => setAddNoteEnable(true)}
         style={styles.floatingButton}>
-        <FontAwesome5 name="plus" color="white" size={20} />
+        <FontAwesome5 name="plus" color={Colors.white} size={20} />
       </TouchableOpacity>
     </SafeAreaView>
   );
